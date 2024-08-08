@@ -8,7 +8,7 @@ import googleLogo from "../assets/google-logo.svg";
 const Signup = () => {
   // Get the createUser function from the context
   const { createUser, loginWithGoogle } = useContext(AuthContext);
-  const [error, setError] = useState(""); // Initialize error as an empty string
+  const [error, setError] = useState(""); 
   const location = useLocation();
   const navigate = useNavigate();
   const from = location.state?.from?.pathname || "/"; // Default to home page

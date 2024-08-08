@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom';
 import { FaCartShopping } from 'react-icons/fa6';
 
 const BookCards = ({ headline, books }) => {
-  //console.log(books); // Debugging: Check if books array is coming through correctly
+
 
   return (
     <div className='px-4 my-16 lg:px-24'>
