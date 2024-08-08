@@ -1,0 +1,73 @@
+.banner .swiper {
+    width: 280px;
+    height: 360px;
+  }
+  
+  .banner .swiper-slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 18px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  .banner .swiper-slide:nth-child(1n) {
+    background-image: url('/src/assets/banner-books/book1.jfif');
+    background-size: cover; /* Make sure the image covers the card */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat
+}
+  
+  .banner .swiper-slide:nth-child(2n) {
+    background-image: url('/src/assets/banner-books/book2.jfif');
+    background-size: cover; /* Make sure the image covers the card */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat
+  }
+  
+  .banner .swiper-slide:nth-child(3n) {
+    background-image: url('/src/assets/banner-books/book3.jfif');
+    background-size: cover; /* Make sure the image covers the card */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat
+  }
+  
+  .banner .swiper-slide:nth-child(4n) {
+    background-image: url('/src/assets/banner-books/book4.jfif');
+    background-size: cover; /* Make sure the image covers the card */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat
+  }
+  
+  .banner .swiper-slide:nth-child(5n) {
+    background-image: url('/src/assets/banner-books/book5.jfif');
+    background-size: cover; /* Make sure the image covers the card */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat
+  }
+  
+  .banner .swiper-slide:nth-child(6n) {
+    background-image: url('/src/assets/banner-books/book6.jfif');
+    background-size: cover; /* Make sure the image covers the card */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat
+  }
+  
+  .banner .swiper-slide:nth-child(7n) {
+    background-image: url('/src/assets/banner-books/book7.jfif');
+    background-size: cover; /* Make sure the image covers the card */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat
+  }
+  
+  .banner .swiper-slide:nth-child(8n) {
+    background-image: url('/src/assets/banner-books/book8.jfif');
+    background-size: cover; /* Make sure the image covers the card */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat
+  }
+  
+
+  

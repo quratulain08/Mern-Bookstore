@@ -43,13 +43,13 @@ async function run() {
    })
 
 
- //get all books
- //app.get("/all-books",async(req, res)=>{
-   // const books = bookCollections.find();
-    //const result = await books.toArray();
-    //res.send(result);
 
- //})
+//  app.get("/all-books",async(req, res)=>{
+//     const books = bookCollections.find();
+//    const result = await books.toArray();
+//     res.send(result);
+
+//  })
 
  //update the books : patch or update method
  app.patch("/book/:id", async(req,res)=>{
@@ -100,6 +100,13 @@ app.get("/all-books", async (req, res) => {
     }
   });
   
+  //to get single book
+  app.get("/book/:id" ,async(req,res)=>{
+    const id=req.params.id;
+    const filter={_id: new ObjectId(id)};
+    const result=await bookCollections.findOne(filter);
+    res.send(result);
+  })
 
     // Send a ping to confirm a successful connection
     await client.db("admin").command({ ping: 1 });
